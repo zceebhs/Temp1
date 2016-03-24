@@ -7,30 +7,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.st.personalitytest_1.Startpage"
+    tools:context="com.example.st.personalitytest_1.question6"
     android:background="@drawable/background1">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Personality Test"
-        android:layout_marginTop="79dp"
-        android:id="@+id/textView"
-        android:textSize="40dp"
-        android:textColor="#000000"
-        android:singleLine="false"
-        android:textIsSelectable="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Were you naughty at school?"
+        android:id="@+id/textView7"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start"
-        android:id="@+id/btn_start"
-        android:onClick="click_start"
-        android:layout_below="@+id/textView"
+        android:text="True"
+        android:id="@+id/btn6_true"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="123dp"
-        android:textSize="40dp" />
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:id="@+id/btn6_false"
+        android:layout_below="@+id/btn6_true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:textSize="30dp" />
 </RelativeLayout>

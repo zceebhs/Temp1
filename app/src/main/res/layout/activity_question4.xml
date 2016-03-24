@@ -7,30 +7,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.st.personalitytest_1.Startpage"
+    tools:context="com.example.st.personalitytest_1.question4"
     android:background="@drawable/background1">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Personality Test"
-        android:layout_marginTop="79dp"
-        android:id="@+id/textView"
-        android:textSize="40dp"
-        android:textColor="#000000"
-        android:singleLine="false"
-        android:textIsSelectable="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Do you like hot showers?"
+        android:id="@+id/textView5"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start"
-        android:id="@+id/btn_start"
-        android:onClick="click_start"
-        android:layout_below="@+id/textView"
+        android:text="True"
+        android:id="@+id/btn4_true"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="123dp"
-        android:textSize="40dp" />
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:id="@+id/btn4_false"
+        android:layout_below="@+id/btn4_true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:textSize="30dp" />
 </RelativeLayout>

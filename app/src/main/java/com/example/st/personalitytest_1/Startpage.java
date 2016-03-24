@@ -10,6 +10,7 @@ import android.view.View;
 public class Startpage extends ActionBarActivity {
 
     public void click_start(View v){
+        // intent to the next question1
         Intent intent = new Intent(getApplicationContext(),question1.class);
         startActivity(intent);
     }
